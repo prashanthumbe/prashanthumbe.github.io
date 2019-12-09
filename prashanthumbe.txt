@@ -1,13 +1,22 @@
-<span id="a">prashanthumbe@localhost</span>:<span id="b">~</span><span id="c">$</span> cd prashanthumbe/<!-- kjsdfhkjdhsfkjdshfkj -->About_Us
-<span id="a">prashanthumbe@localhost</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->prashanthumbe.txt<br/><br/>
+<span id="a">prashanthumbe@pc</span>:<span id="b">~</span><span id="c">$</span> cd welcome
+<span id="a">prashanthumbe@pc</span>:<span id="b">~/welcome</span><span id="c">$</span> ls
+<p>about-me.txt skills.mdpersonal-projects.md contact-me.md awards-and-recognitions.txt</p>
+<span id="a">prashanthumbe@pc</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->prashanthumbe.txt<br/><br/>
 My favorite code quote, "<span id="k">Code for Everyone</span>". <!-- sjkfhskjf -->
-
-Hey There! This is the portflio website in the skin of a terminal.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>You can see that, this is how your portfolio would look like.</p>
+Hi, my name is Prashant Humbe.I build things for the web.
+I'm a software engineer based in Mumbai, India specializing in building exceptional, high-quality websites and applications.
+Hey There! This is the portflio website in the skin of a terminal.<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+<p>You can see that, this is how your portfolio would look like.</p>
 <p>You can introduce yourself here.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
 <p> You can also tell what you've worked and known and what skills you have, you can also give link to your professional portfolio here<a href="link"> portfolio</a>.</p><!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
-<p>Tell more about yourself. <br><br><br>Give your project links or something like that. <a href="link"> Here you go</a>.</p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
-<p> You can give links to other professional profiles you have on Internet, here: <br> <a href="link1">Profile1</a> <br> <a href="link2">Profile2</a> and <br> <a href="link3">Profile3</a>.</p>
+<p>Tell more about yourself. <br><br><br>Give your project links or something like that. <a href="https://www.goggle.com"> Here you go</a>.</p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
+<p> You can give links to other professional profiles you have on Internet, here: <br> 
+<a href="http://prashanthumbe.github.io">Github</a> <br> 
+<a href="https://prashanthumbe.github.io">Facebook</a> and <br> 
+<a href="http://prashanthumbe.github.io">LinkedIn</a>.</p>
 
-You can also give your email ID for contacting you<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment --><a href="Your email ID">Email</a>.
+You can also give your email ID for contacting you<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment -->
+<a mailto="prashant.humbe19@gmail.com">prashant.humbe19@gmail.com</a>.
 
 <p>Cheers!</p>
+<span id="a">prashanthumbe@pc</span>:<span id="b">~</span><span id="c">$</span> exit<!-- kjsdfhkjdhsfkjdshfkj -->

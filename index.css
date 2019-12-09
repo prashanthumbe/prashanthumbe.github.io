@@ -1,5 +1,9 @@
 body {
-	background-color: #000
+	background-color: #293846;
+}
+
+.console_cursor{
+    animation: change 1s;
 }
 
 #console {
