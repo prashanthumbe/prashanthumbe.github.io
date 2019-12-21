@@ -11,7 +11,6 @@ window.addEventListener('online', function(e) {
     // re-sync data with server
     console.log("You are online");
     Page.hideOfflineWarning();
-    Arrivals.loadData();
 }, false);
 
 window.addEventListener('offline', function(e) {
@@ -22,11 +21,8 @@ window.addEventListener('offline', function(e) {
 
 // check if the user is connected
 if (navigator.onLine) {
-    Arrivals.loadData();
+    console.log("You are online >> navigator.onLine");
 } else {
     // show offline message
     Page.showOfflineWarning();
 }
-
-// set knockout view model bindings
-ko.applyBindings(Page.vm);
