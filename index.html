@@ -1,14 +1,26 @@
 
 <html> 
-  <head> 
-    <title>Prashant Humbe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
-    <script type="text/javascript" src="index.js"></script> 
-  </head> 
-  <body> 
-    <div id="console"></div> 
-  </body> 
-</html> 
+<head> 
+	<title>Prashant Humbe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="manifest" href="manifest.json">
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+	<script type="text/javascript" src="assets/js/index.js"></script> 
+</head> 
+<body> 
+	<div id="console"></div> 
+</body>
+<script>
+	if ('serviceWorker' in navigator) {
+		console.log("Will the service worker register?");
+		navigator.serviceWorker.register('assets/js/service-worker.js')
+		.then(function(reg){
+			console.log("Yes, it did.");
+		}).catch(function(err) {
+			console.log("No it didn't. This happened:", err)
+		});
+	}
+</script>
+</html>
