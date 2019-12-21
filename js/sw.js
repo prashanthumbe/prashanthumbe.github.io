@@ -14,7 +14,7 @@ self.addEventListener('install', function(e) {
                 //'./css/fonts/roboto.woff',
                 //'./offline.html'
             ]).then(function() {
-                //self.skipWaiting();
+                self.skipWaiting();
             });
         })
     );
