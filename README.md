@@ -1,2 +1,2 @@
 # prashanthumbe.github.io
-Terminal based portfolio website for prashanthumbe 
+Terminal based portfolio website for prashanthumbe
