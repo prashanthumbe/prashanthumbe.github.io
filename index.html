@@ -1,26 +1,52 @@
+<!DOCTYPE html>
+<html class="js no-touchevents" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#29BDBB">
+    <title>Sky-High Airport Arrivals</title>
+    <link async rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,600,300italic,600italic" rel="stylesheet" type="text/css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="icon" sizes="192x192" href="./launcher-icon-144.png">
+</head>
 
-<html> 
-<head> 
-	<title>Prashant Humbe</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="manifest" href="manifest.json">
-	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
-	<script type="text/javascript" src="assets/js/index.js"></script> 
-</head> 
-<body> 
-	<div id="console"></div> 
+<body>
+    <header>
+        <div class="content">
+            <h3>Arrivals</h3>
+        </div>
+    </header>
+    <div class="container">
+        <div id="main" class="content">
+            <ul class="arrivals-list" data-bind="foreach: arrivals">
+                <li class="item">
+                    <span class="title" data-bind="html: title"></span>
+                    <span class="status" data-bind="html: status"></span>
+                    <span class="time" data-bind="html: time"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
-<script>
-	if ('serviceWorker' in navigator) {
-		console.log("Will the service worker register?");
-		navigator.serviceWorker.register('assets/js/service-worker.js')
-		.then(function(reg){
-			console.log("Yes, it did.");
-		}).catch(function(err) {
-			console.log("No it didn't. This happened:", err)
-		});
-	}
+<script type="text/javascript">
+// register the service worker if available
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js').then(function(reg) {
+        console.log('Successfully registered service worker', reg);
+    }).catch(function(err) {
+        console.warn('Error whilst registering service worker', err);
+    });
+}
+window.addEventListener('online', function(e) {
+    // re-sync data with server
+    console.log("You are online");
+}, false);
+
+window.addEventListener('offline', function(e) {
+    // queue up events for server
+    console.log("You are offline");
+}, false);
+
 </script>
 </html>
