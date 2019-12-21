@@ -5,7 +5,7 @@
   "icons": [
     {
       "src": "img/icons/launcher-icon.png",
-      "sizes": "48x48",
+      "sizes": "36x36",
       "type": "image/png"
     },
     {
