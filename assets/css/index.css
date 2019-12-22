@@ -34,15 +34,26 @@ a {
 }
 
 #k {
-    	animation: change 1s;
+    animation: change 1s;
+}
+
+#e {
+    animation: color_change 1s;
+	color: #0bc;
 }
 
 #op{
-    	color: #888888
+    color: #888888
 }
 
 @keyframes change {
-    	0%  { color:  #0f0; }
-    	50% { color:  #0f0; }
-    	99% { color: black; }
+	0%  { color:  #0f0; }
+	50% { color:  #0f0; }
+	99% { color: black; }
+}
+
+@keyframes color_change {
+	0%  { color:  #0bc; }
+	50% { color:  #0bc; }
+	99% { color: black; }
 }
