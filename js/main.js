@@ -8,8 +8,9 @@ if ('serviceWorker' in navigator) {
 }
 
 window.addEventListener('beforeinstallprompt', (e) => {
-  //e.preventDefault();
+  e.preventDefault();
   //deferredPrompt = e;
+  console.log('beforeinstallprompt banner');
 });
 
 window.addEventListener('appinstalled', (evt) => {
@@ -23,11 +24,6 @@ window.addEventListener('online', function(e) {
 window.addEventListener('offline', function(e) {
     console.log("You are offline");
 }, false);
-
-if (window.matchMedia('(display-mode: minimal-ui)').matches) {
-  console.log('display-mode is minimal-ui');
-}
-
 
 // check if the user is connected
 if (navigator.onLine) {
