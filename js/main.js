@@ -8,8 +8,8 @@ if ('serviceWorker' in navigator) {
 }
 
 window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
+  //e.preventDefault();
+  //deferredPrompt = e;
 });
 
 window.addEventListener('appinstalled', (evt) => {
