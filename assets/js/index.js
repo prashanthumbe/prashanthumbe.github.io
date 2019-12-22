@@ -89,14 +89,15 @@ function replaceUrls(text) {
 	}
 }
 
-Typer.speed=3;
-Typer.file="prashanthumbe.txt";
-Typer.init();
- 
-var timer = setInterval("t();", 50);
 function t() {
 	Typer.addText({"keyCode": 123748});	
 	if (Typer.index > Typer.text.length) {
 		clearInterval(timer);
 	}
 } 
+
+Typer.speed=3;
+Typer.file="prashanthumbe.txt";
+Typer.init(); 
+var timer = setInterval("t();", 50);
+

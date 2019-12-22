@@ -1,7 +1,7 @@
 <span id="a">prashanthumbe@pc</span>:<span id="b">~</span><span id="c">$</span> cd welcome<br/>
 
 <span id="a">prashanthumbe@pc</span>:<span id="b">~/welcome</span><span id="c">$</span> ls <br/>
-about-me.txt	awards-and-recognitions.txt contact-me.txt <br/>
+about-me.txt contact-me.txt <br/>
 
 <span id="a">prashanthumbe@pc</span>:<span id="b">~/welcome</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->about-me.txt <br/>
 Hi, my name is <em>Prashant Humbe</em>.I build things for the web. I'm a software engineer based in Mumbai(India), specializing in building exceptional, high-quality websites and applications. <br/>
@@ -9,7 +9,8 @@ Hi, my name is <em>Prashant Humbe</em>.I build things for the web. I'm a softwar
 
 <span id="a">prashanthumbe@pc</span>:<span id="b">~/welcome</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->contact-me.txt <br/>
 I'm not currently looking for freelance space, my inbox is always open. Whether for a potential work or just to <a href="mailto:prashant.humbe19@gmail.com" id="e">say hi</a>, i'll touch with you.<br/>
-Other professional profiles here: <a href="https://github.com/prashanthumbe">Github</a> <a href="https://www.facebook.com/Prashant.humbe19">Facebook</a> <a href="https://www.linkedin.com/in/prashant-humbe-64777448/">LinkedIn</a> <br/>
+<a href="https://github.com/prashanthumbe"><img src="assets/img/icons/launcher-icon-48.png" alt="Smiley face" height="42" width="42"/></a> <a href="https://www.facebook.com/Prashant.humbe19"><img src="assets/img/icons/launcher-icon-48.png" alt="Smiley face" height="42" width="42"/></a> <a href="https://www.linkedin.com/in/prashant-humbe-64777448/"><img src="assets/img/icons/launcher-icon-48.png" alt="Smiley face" height="42" width="42"/></a> <br/>
+
 Cheers! <br/>
 
 <span id="a">prashanthumbe@pc</span>:<span id="b">~/welcome</span><span id="c">$</span> exit! 
