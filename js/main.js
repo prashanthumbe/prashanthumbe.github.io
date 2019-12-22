@@ -19,6 +19,13 @@ window.addEventListener('offline', function(e) {
     Page.showOfflineWarning();
 }, false);
 
+if (window.matchMedia('(display-mode: minimal-ui)').matches) {
+  console.log('display-mode is minimal-ui');
+}
+window.addEventListener('appinstalled', (evt) => {
+  console.log('a2hs installed');
+});
+
 // check if the user is connected
 if (navigator.onLine) {
     console.log("You are online >> navigator.onLine");
